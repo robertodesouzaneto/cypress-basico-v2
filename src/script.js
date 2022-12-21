@@ -1,4 +1,4 @@
-let isPhoneRequired = false
+let isPhoneRequired = true
 
 const phoneLabelSpan = document.querySelector('.phone-label-span')
 const phoneField = document.getElementById('phone')
@@ -50,7 +50,7 @@ document.querySelector('button[type="submit"]')
     fileField.value = ''
     phoneLabelSpan.style.display = 'none'
     successMessage.style.display = 'block'
-    isPhoneRequired = true
+    isPhoneRequired = false
     scroll(0,0)
     hideMessageAfterTimeout(successMessage)
   }, false)
