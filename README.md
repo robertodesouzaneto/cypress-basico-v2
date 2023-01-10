@@ -1,29 +1,32 @@
-# Testes automatizados com Cypress - Básico
+# Test automation with Cypress basic
+👋 Welcome!
 
-👋 Seja bem-vindo(a)!
+The project is based on the course [**Test automation with Cypress basic from the School Talking About Testing**](https://udemy.com/user/walmyr).
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## A refactoring is being performed to apply best practices in this project
+### Todo
+- [ ] Remove unnecessary files
+- [ ] Change the project name to cypress-testing-basic
+- [ ] Translate the application to English
+- [ ] Refactor the tests
 
-## O que você vai aprender
+### In Progress
+- [ ] Update the readme  
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+### Done ✓
 
-## Vamos começar?
+## About the cypress
+Todo
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## About the Application
+Todo
 
-___
+## Requirements
+Todo
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+## How to run locally
+Todo
+
+## CI Status
+Todo
