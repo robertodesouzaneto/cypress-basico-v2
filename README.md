@@ -6,15 +6,16 @@ The project is based on the course [**Test automation with Cypress basic from th
 ## A refactoring is being performed to apply best practices in this project
 ### Todo
 - [ ] Change the project name to cypress-testing-basic
-- [ ] Translate the application to English
-- [ ] Refactor the tests
+
 
 ### In Progress
 - [ ] Update the readme  
-
+- [ ] Refactor the tests
 
 ### Done ✓
 - [x] Remove unnecessary files
+- [x] Translate the application to English
+
 ## About the cypress
 Todo
 

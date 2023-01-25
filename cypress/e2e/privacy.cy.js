@@ -7,9 +7,9 @@ describe('Politica de privacidade - Central de Atendimento ao Cliente TAT', () =
 
     it('testa a página da política de privavidade de forma independente', () => {
         cy.title()
-            .should('be.equal', 'Central de Atendimento ao Cliente TAT - Política de privacidade')
+            .should('be.equal', 'Customer Service Center - Privacy Policy')
 
         cy.get('h1')
-            .should('have.text', 'CAC TAT - Política de privacidade')
+            .should('have.text', 'Privacy Policy')
     })
 })

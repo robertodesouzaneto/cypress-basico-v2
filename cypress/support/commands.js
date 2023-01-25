@@ -3,5 +3,5 @@ Cypress.Commands.add('fillMandatoryFieldsAndSubmit', ticket => {
     cy.get('#lastName').type(ticket.lastName)
     cy.get('#email').type(ticket.email)
     cy.get('#open-text-area').type(ticket.feedback)
-    cy.contains('button', 'Enviar').click()
+    cy.contains('button', 'Submit').click()
 })

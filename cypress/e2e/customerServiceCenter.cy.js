@@ -13,7 +13,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
   })
 
   it('verifica o título da aplicação', () => {
-    cy.title().should('eq', 'Central de Atendimento ao Cliente TAT')
+    cy.title().should('eq', 'Customer Service Center')
   })
 
   it('preenche os campos obrigatórios e envia o formulário', () => {
@@ -25,7 +25,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
     cy.get('#lastName').type('de Souza Neto')
     cy.get('#email').type('rosone96@gmail.com')
     cy.get('#open-text-area').type(longText, { delay: 0 })
-    cy.contains('button', 'Enviar').click()
+    cy.contains('button', 'Submit').click()
     cy.get('.success').should('be.visible')
     cy.tick(3000)
     cy.get('.success').should('not.be.visible')
@@ -37,7 +37,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
     cy.get('#lastName').type('de Souza Neto')
     cy.get('#email').type('wrong@')
     cy.get('#open-text-area').type("Lorem Ipsum",)
-    cy.contains('button', 'Enviar').click()
+    cy.contains('button', 'Submit').click()
     cy.get('.error').should('be.visible')
     cy.tick(3000)
     cy.get('.error').should('not.be.visible')
@@ -54,7 +54,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
     cy.get('#email').type('rosone96@gmail.com')
     cy.get('#phone-checkbox').check()
     cy.get('#open-text-area').type("Lorem Ipsum")
-    cy.contains('button', 'Enviar').click()
+    cy.contains('button', 'Submit').click()
     cy.get('.error').should('be.visible')
     cy.tick(3000)
     cy.get('.error').should('not.be.visible')
@@ -89,8 +89,8 @@ describe('Central de Atendimento ao Cliente TAT', () => {
 
   it('seleciona um produto (Mentoria) por seu valor (value)', () => {
     cy.get('#product')
-      .select('mentoria')
-      .should('have.value', 'mentoria')
+      .select('mentorship')
+      .should('have.value', 'mentorship')
   })
 
   it('seleciona um produto (Blog) por seu índice', () => {
@@ -163,7 +163,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
       .click()
     
     cy.get('h1')
-      .should('have.text', 'CAC TAT - Política de privacidade')
+      .should('have.text', 'Privacy Policy')
   })
 
   it('acessa a página da política de privacidade removendo o target e então clicanco no link', () => {
@@ -172,7 +172,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
       .click()
     
     cy.get('h1')
-      .should('have.text', 'CAC TAT - Política de privacidade')
+      .should('have.text', 'Privacy Policy')
   })
   
   it('exibe e esconde as mensagens de sucesso e erro usando o .invoke()', () => {
@@ -180,14 +180,14 @@ describe('Central de Atendimento ao Cliente TAT', () => {
       .should('not.be.visible')
       .invoke('show')
       .should('be.visible')
-      .and('contain', 'Mensagem enviada com sucesso.')
+      .and('contain', 'Your message has been sent successfully.')
       .invoke('hide')
     
     cy.get('.error')
       .should('not.be.visible')
       .invoke('show')
       .should('be.visible')
-      .and('contain', 'Valide os campos obrigatórios!')
+      .and('contain', 'Check the required fields!')
       .invoke('hide')
   })
 
