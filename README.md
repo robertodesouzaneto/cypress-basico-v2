@@ -5,7 +5,6 @@ The project is based on the course [**Test automation with Cypress basic from th
 
 ## A refactoring is being performed to apply best practices in this project
 ### Todo
-- [ ] Remove unnecessary files
 - [ ] Change the project name to cypress-testing-basic
 - [ ] Translate the application to English
 - [ ] Refactor the tests
@@ -15,7 +14,7 @@ The project is based on the course [**Test automation with Cypress basic from th
 
 
 ### Done ✓
-
+- [x] Remove unnecessary files
 ## About the cypress
 Todo
 
