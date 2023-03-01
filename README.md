@@ -4,9 +4,6 @@
 The project is based on the course [**Test automation with Cypress basic from the School Talking About Testing**](https://udemy.com/user/walmyr).
 
 ## A refactoring is being performed to apply best practices in this project
-### Todo
-- [ ] Change the project name to cypress-testing-basic
-
 
 ### In Progress
 - [ ] Update the readme  
@@ -15,6 +12,7 @@ The project is based on the course [**Test automation with Cypress basic from th
 ### Done ✓
 - [x] Remove unnecessary files
 - [x] Translate the application to English
+- [x] Change the project name to cypress-testing-basic
 
 ## About the cypress
 Todo
