@@ -1,11 +1,11 @@
 /// <reference types="Cypress" />
 
-describe('Politica de privacidade - Central de Atendimento ao Cliente TAT', () => {
+describe('Privacy Policy - Customer Service Center', () => {
     beforeEach(() => {
         cy.visit('src/privacy.html')
     })
 
-    it('testa a página da política de privavidade de forma independente', () => {
+    it('Verify that the privacy policy page loads successfully and contains relevant information', () => {
         cy.title()
             .should('be.equal', 'Customer Service Center - Privacy Policy')
 

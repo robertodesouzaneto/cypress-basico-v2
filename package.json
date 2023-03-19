@@ -1,7 +1,7 @@
 {
-  "name": "curso-cypress-v2",
+  "name": "cypress-testing-basic",
   "version": "1.0.0",
-  "description": "Repositório da versão 2 do curso básico de Cypress da Escola Talking About Testing",
+  "description": "Test automation with Cypress basic",
   "main": "src/index.html",
   "scripts": {
     "cy:open": "cypress open",
@@ -11,18 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wlsf82/cypress-basico-v2.git"
+    "url": "git+https://github.com/robertodesouzaneto/cypress-testing-basic.git"
   },
   "keywords": [
     "Testing",
     "Cypress.io",
     "Talking About Testing",
-    "Cypress Básico",
-    "Escola TAT"
+    "Cypress"
   ],
-  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "author": "Roberto de Souza Neto <rosone96@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme",
+  "homepage": "https://github.com/robertodesouzaneto/cypress-testing-basic#readme",
   "devDependencies": {
     "cypress": "^11.2.0"
   }
