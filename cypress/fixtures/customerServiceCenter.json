@@ -1,0 +1,29 @@
+{
+  "mandatoryFields": {
+    "firstName": "Roberto",
+    "lastName": "Neto",
+    "email": "hello@cypress.io",
+    "feedback": "Lorem ipsum"
+  },
+  "allFields": {
+    "firstName": "Roberto",
+    "lastName": "Neto",
+    "email": "hello@cypress.io",
+    "feedback": "Lorem ipsum",
+    "phone": "11111111111",
+    "product": "YouTube"
+  },
+  "invalidEmail": {
+    "firstName": "Roberto",
+    "lastName": "Neto",
+    "email": "invalidemail@",
+    "feedback": "Lorem ipsum"
+  },
+  "phoneBecomesMandatory": {
+    "firstName": "Roberto",
+    "lastName": "Neto",
+    "email": "hello@cypress.io",
+    "feedback": "Lorem ipsum"
+  }
+
+}
